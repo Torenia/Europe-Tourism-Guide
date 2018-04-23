@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Europe Travel Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<script>
+    var countryName = "Germany";
+</script>
+<body>
+
+<!--Menu-->
+
+<div class="container my-3">
+    <ul class="nav nav-pills nav-fill flex-column flex-sm-row">
+        <li class="nav-item"><a href="index.html" class="nav-link">Main</a></li>
+        <li class="nav-item dropdown"><a href="Countries.html" class="nav-link active dropdown-toggle" id="navbardrop"
+                                         data-toggle="dropdown">Countries</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Countries.html">All countries</a>
+                <a class="dropdown-item" href="France.html">France</a>
+                <a class="dropdown-item" href="Germany.html">Germany</a>
+                <a class="dropdown-item" href="Italy.html">Italy</a>
+                <a class="dropdown-item" href="United-Kingdom.html">United Kingdom</a>
+                <a class="dropdown-item" href="Spain.html">Spain</a>
+                <a class="dropdown-item" href="Switzerland.html">Switzerland</a>
+            </div>
+        </li>
+        <li class="nav-item"><a href="Tourist-attractions.html" class="nav-link">Tourist attractions</a></li>
+        <li class="nav-item"><a href="How-To-Reach-Europe.html" class="nav-link">How To Reach Europe</a></li>
+        <li class="nav-item"><a href="FAQ's-of-Europe.html" class="nav-link">FAQ's of Europe</a></li>
+        <li class="nav-item"><a href="Ask-us-about-Europe.html" class="nav-link">Ask us about Europe</a></li>
+    </ul>
+</div>
+
+<!--Carousel-->
+
+<div class="container">
+    <div class="image"><img src="img/17.jpg" class="img-fluid  w-100" alt="Germany"></div>
+</div>
+
+<!--Main information-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+            <h2 class="text-center my-4">About Germany</h2>
+            <p class="text-justify">Germany is Europe’s largest economy. It is also the second most populous nation
+                after Russia on the continent, with a population of over 81.5 million. Its territory stretches from the
+                North Sea and Baltic in the north to the Alps in the south. The country is traversed by rivers like the
+                Danube, Elbe, and Rhine. Officially the Federal Republic of Germany, it covers an area of 137.847 Sq Km
+                and offers soul-stirring landscapes, romantic palaces, half-timbered towns and a vibrant culture.</p>
+            <p class="text-justify">Berlin, the capital of Germany, is a cultural centre of the country and is known for
+                its art scene, modern architecture, and happening nightlife. Berlin Wall, Museum Island, Brandenburg
+                Gate and Holocaust Memorial are the key attractions of Berlin. On the other hand, Frankfurt is the major
+                financial hub of the country. The largest city in the state of Hesse, it glints with skyscrapers and is
+                home to one of the largest stock exchanges in the world. The new headquarters of European Central Bank
+                also lies in Frankfurt. But despite all the modernistic developments, the city is extremely traditional
+                and charming at heart.</p>
+            <p class="text-justify">Munich is home to Mediterranean-style cafes and beer halls. It is Germany’s
+                unofficial southern capital where the world comes together to celebrate the famous Oktoberfest. It has
+                many magnificent art galleries and museums that give a character to its royal Bavarian heritage.</p>
+            <p class="text-justify">In Germany, two-third of the population is Protestant, one-third is Roman Catholic
+                and Jews are a minority. A large number of Muslims also reside in the country. German is the official
+                and predominantly spoken language. However, Danish, Low German, Romany, Sorbian, Frisian are recognized
+                minority languages. The most used immigrant languages in the country include Turkish, Polish, Kurdish,
+                the Balkan languages, and Russian.</p>
+            <p class="text-justify">In terms of cuisine, Germany is famous for its pretzels and sausages. Bread is a
+                significant part of the meal along with meats like pork, chicken or beef. The country produces over 1200
+                different types of pastries and rolls. German cheeses account for about a third of all the cheese
+                produced in Europe. Although wine is popular in many cities of Germany, it is known for its beer purity
+                and consumption.</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-10 col-xs-12 mt-4">
+            <div class="card bg-light text-dark">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <h5 class="card-title text-success font-weight-bold">Germany Info</h5>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Currency: </span><span
+                                id="currency"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Population: </span><span
+                                id="population"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Time Zone: </span><span
+                                id="timeZone"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Area: </span><span
+                                id="area"></span> km<sup>2</sup></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Capital: </span><span
+                                id="capital"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Official Language: </span><span
+                                id="language"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Capital's calling code: </span><span
+                                id="code"></span></p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+</div>
+
+<!--Footer-->
+
+<footer class="text-muted">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>&copy;COPYRIGHT 2017. ALL RIGHTS RESERVED. WEBSITE POWERED BY TETIANA OSADCHA.</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                <p><a href="#">WRITE US</a></p>
+            </div>
+
+            <!--Share Buttons-->
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <ul class="share-buttons">
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" title="Share on Facebook"
+                           target="_blank"><img alt="Share on Facebook" src="img/Facebook.png" class="img-fluid"/></a>
+                    </li>
+                    <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet"><img
+                            alt="Tweet" src="img/Twitter.png" class="img-fluid"/></a></li>
+                    <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img
+                            alt="Share on Google+" src="img/Google+.png" class="img-fluid"/></a></li>
+                    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source="
+                           target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="img/LinkedIn.png"
+                                                                          class="img-fluid"/></a></li>
+                    <li><a href="mailto:?subject=&body=:%20" target="_blank" title="Send email"><img alt="Send email"
+                                                                                                     src="img/Email.png"
+                                                                                                     class="img-fluid"/></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

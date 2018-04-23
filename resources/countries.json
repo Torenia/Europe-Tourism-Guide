@@ -1,0 +1,56 @@
+{
+  "UnitedKingdom": {
+    "Currency": "Pound sterling",
+    "Population": "64.1 million",
+    "TimeZone": "GMT +01:00",
+    "Area": "243610",
+    "Capital": "London",
+    "OfficialLanguage": "English",
+    "CapitalCallingCode": "+44-20"
+  },
+  "France": {
+    "Currency": "Euro",
+    "Population": "66.03 million",
+    "TimeZone": "GMT +02:00",
+    "Area": "643801",
+    "Capital": "Paris",
+    "OfficialLanguage": "French",
+    "CapitalCallingCode": "+33-1"
+  },
+  "Germany": {
+    "Currency": "Euro",
+    "Population": "81.5 million",
+    "TimeZone": "GMT +02:00",
+    "Area": "357168",
+    "Capital": "Berlin",
+    "OfficialLanguage": "German",
+    "CapitalCallingCode": "+49-30"
+  },
+  "Italy": {
+    "Currency": "Euro",
+    "Population": "59.83 milllion",
+    "TimeZone": "GMT +02:00",
+    "Area": "301338",
+    "Capital": "Rome",
+    "OfficialLanguage": "Italian",
+    "CapitalCallingCode": "+39-6"
+  },
+  "Spain": {
+    "Currency": "Euro",
+    "Population": "46.77 million",
+    "TimeZone": "GMT +02:00",
+    "Area": "504645",
+    "Capital": "Madrid",
+    "OfficialLanguage": "Spanish",
+    "CapitalCallingCode": "+34-91"
+  },
+  "Switzerland": {
+    "Currency": "Swiss franc",
+    "Population": "8.081 million",
+    "TimeZone": "GMT +02:00",
+    "Area": "41285 ",
+    "Capital": "Bern",
+    "OfficialLanguage": "French,Italian, German, Romansh",
+    "CapitalCallingCode": "+41-31"
+  }
+}

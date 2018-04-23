@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Europe Travel Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<script>
+    var countryName = "France";
+</script>
+<body>
+
+<!--Menu-->
+
+<div class="container my-3">
+    <ul class="nav nav-pills nav-fill flex-column flex-sm-row">
+        <li class="nav-item"><a href="index.html" class="nav-link">Main</a></li>
+        <li class="nav-item dropdown"><a href="Countries.html" class="nav-link active dropdown-toggle" id="navbardrop"
+                                         data-toggle="dropdown">Countries</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Countries.html">All countries</a>
+                <a class="dropdown-item" href="France.html">France</a>
+                <a class="dropdown-item" href="Germany.html">Germany</a>
+                <a class="dropdown-item" href="Italy.html">Italy</a>
+                <a class="dropdown-item" href="United-Kingdom.html">United Kingdom</a>
+                <a class="dropdown-item" href="Spain.html">Spain</a>
+                <a class="dropdown-item" href="Switzerland.html">Switzerland</a>
+            </div>
+        </li>
+        <li class="nav-item"><a href="Tourist-attractions.html" class="nav-link">Tourist attractions</a></li>
+        <li class="nav-item"><a href="How-To-Reach-Europe.html" class="nav-link">How To Reach Europe</a></li>
+        <li class="nav-item"><a href="FAQ's-of-Europe.html" class="nav-link">FAQ's of Europe</a></li>
+        <li class="nav-item"><a href="Ask-us-about-Europe.html" class="nav-link">Ask us about Europe</a></li>
+    </ul>
+</div>
+
+<!--Carousel-->
+
+<div class="container">
+    <div class="image"><img src="img/13.jpg" class="img-fluid  w-100" alt="France"></div>
+</div>
+
+<!--Main information-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+            <h2 class="text-center my-4">About France</h2>
+            <p class="text-justify">Say Bonjour when in France! The first welcoming word that a visitor comes across as
+                French love to speak their native language. Be stylish when walking down the streets of France,
+                remember, the country is home to many stylish and chic people.</p>
+            <p class="text-justify">France has been a hub of art, architecture, fashion, music, literature and
+                gastronomy that seduces millions of travellers all around the world. The Art de Vivre of French exudes
+                cheerfulness and energy all around even in their simple daily rituals. There’s lot more to do in France,
+                from embracing its breathtaking countryside beauty to walking around the museums, hiking along alpine
+                trails or hitting the road to its unusual locales, the experience sometimes overwhelms the visitors. The
+                sheer variety of France is unquestionable. French are always touted for their ardor and Joie de
+                Vivre.</p>
+            <p class="text-justify">Once a dominant political and military power in the world, France has been an
+                important country in Europe till date. Being the largest country in the European Union, the French
+                Republic is located in the western Europe and comprises several overseas regions and territories across
+                the world. Flanked by the North Sea, the English Channel, the Atlantic Ocean and the Mediterranean Sea,
+                and bordering countries like Germany, Switzerland, Italy and Monaco, the two-third of France comprises
+                hills and mountains ranges. The famous mountain ranges the Pyrenees, the Alps and the Jura offer
+                playgrounds for winter and summer sports including skiing, hiking, swimming, and fishing. The famous
+                beach area on the Mediterranean coast called the French Riviera makes a popular spot for visitors in
+                summers and mild winters.</p>
+            <p class="text-justify">Paris- the capital city is a global hub of art, fashion, gastronomy and culture. The
+                city is well known for its major landmarks including Eiffel Tower being the one and cafe culture. A
+                fashionista’s dream, the city is home to many designer boutiques that lined the two upscale streets of
+                Paris, Vuitton line Avenue Montaigne and Avenue des Champs-Elysées. Bordeaux is famed for the wine
+                industry. Burgundy is home to world-class wineries, navigable canals, and grand chateau. Lourdes is
+                known worldwide for Notre-Dame de Lourdes, a major Catholic pilgrimage site.</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-10 col-xs-12 mt-4">
+            <div class="card bg-light text-dark">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <h5 class="card-title text-success font-weight-bold">France Info</h5>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Currency: </span><span
+                                id="currency"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Population: </span><span
+                                id="population"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Time Zone: </span><span
+                                id="timeZone"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Area: </span><span
+                                id="area"></span> km<sup>2</sup></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Capital: </span><span
+                                id="capital"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Official Language: </span><span
+                                id="language"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Capital's calling code: </span><span
+                                id="code"></span></p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+</div>
+
+<!--Footer-->
+
+<footer class="text-muted">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>&copy;COPYRIGHT 2017. ALL RIGHTS RESERVED. WEBSITE POWERED BY TETIANA OSADCHA.</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                <p><a href="#">WRITE US</a></p>
+            </div>
+
+            <!--Share Buttons-->
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <ul class="share-buttons">
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" title="Share on Facebook"
+                           target="_blank"><img alt="Share on Facebook" src="img/Facebook.png" class="img-fluid"/></a>
+                    </li>
+                    <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet"><img
+                            alt="Tweet" src="img/Twitter.png" class="img-fluid"/></a></li>
+                    <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img
+                            alt="Share on Google+" src="img/Google+.png" class="img-fluid"/></a></li>
+                    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source="
+                           target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="img/LinkedIn.png"
+                                                                          class="img-fluid"/></a></li>
+                    <li><a href="mailto:?subject=&body=:%20" target="_blank" title="Send email"><img alt="Send email"
+                                                                                                     src="img/Email.png"
+                                                                                                     class="img-fluid"/></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>

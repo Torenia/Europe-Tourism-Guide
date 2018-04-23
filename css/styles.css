@@ -1,0 +1,36 @@
+body {
+    background: url(../img/19.png);
+    background-size: 100%;
+}
+
+/*Share buttons*/
+
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+/*Captions for images*/
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    width: 60%;
+    color: #FFF;
+    background-color: #345;
+    opacity: .80;
+}
+
+/*Footer*/
+footer {
+    font-size: 0.8em;
+}

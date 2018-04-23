@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Europe Travel Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<script>
+    var countryName = "Italy";
+</script>
+<body>
+
+<!--Menu-->
+
+<div class="container my-3">
+    <ul class="nav nav-pills nav-fill flex-column flex-sm-row">
+        <li class="nav-item"><a href="index.html" class="nav-link">Main</a></li>
+        <li class="nav-item dropdown"><a href="Countries.html" class="nav-link active dropdown-toggle" id="navbardrop"
+                                         data-toggle="dropdown">Countries</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Countries.html">All countries</a>
+                <a class="dropdown-item" href="France.html">France</a>
+                <a class="dropdown-item" href="Germany.html">Germany</a>
+                <a class="dropdown-item" href="Italy.html">Italy</a>
+                <a class="dropdown-item" href="United-Kingdom.html">United Kingdom</a>
+                <a class="dropdown-item" href="Spain.html">Spain</a>
+                <a class="dropdown-item" href="Switzerland.html">Switzerland</a>
+            </div>
+        </li>
+        <li class="nav-item"><a href="Tourist-attractions.html" class="nav-link">Tourist attractions</a></li>
+        <li class="nav-item"><a href="How-To-Reach-Europe.html" class="nav-link">How To Reach Europe</a></li>
+        <li class="nav-item"><a href="FAQ's-of-Europe.html" class="nav-link">FAQ's of Europe</a></li>
+        <li class="nav-item"><a href="Ask-us-about-Europe.html" class="nav-link">Ask us about Europe</a></li>
+    </ul>
+</div>
+
+<!--Carousel-->
+
+<div class="container">
+    <div class="image"><img src="img/9.jpg" class="img-fluid  w-100" alt="Italy"></div>
+</div>
+
+<!--Main information-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+            <h2 class="text-center my-4">About Italy</h2>
+            <p class="text-justify">Officially known as the Italian Republic the country of Italy is a boot-shaped
+                peninsula in the heart of the Mediterranean Sea. It shares its northern borders with France,
+                Switzerland, Austria and Slovenia. Several small islands also form part of Italy, among them, Sicily and
+                Sardinia are the largest. The charming Alps and Apennine mountains criss-cross the country's
+                landscape.</p>
+            <p class="text-justify">Italy boasts one of the longest coastlines in the world and around 248 beaches of
+                Italy have been awarded the Blue Flag status for their clear emerald waters and unspoiled sands. The
+                country is home to Europe’s largest active volcano Mt. Etna - a UNESCO World Heritage Site, providing a
+                spectacular sighting of eruptions, lava flows, soot-filled skies and extensive caves. Interestingly
+                Italy has the world's highest number of World Heritage sites - 51 in all.</p>
+            <p class="text-justify">Known worldwide for its pizza, pasta, Colosseum, Milan fashion, opera music and
+                glitz, Italy offers various other exciting attractions.</p>
+            <p class="text-justify">The rich culture, heritage and chequered history of Italy is reflected in its
+                cities. Rome- the capital city is famed for its 3000 years old architecture, art, and historical
+                heritage. The Colosseum - one of the seven wonders of the world and the Roman Forum are some prime
+                attractions here. Venice sprawled over 100 islands is intertwined with its famous canals all around.
+                Milan is a hub of international fashion and design. The famous Gothic Duomo di Milano cathedral and the
+                Santa Maria Delle Grazie convent flaunt Leonardo da Vinci’s fresco. Florence is famed for its iconic
+                architecture and masterpieces of art from Renaissance period. Florence Cathedral and The Galleria
+                dell'Accademia and Uffizi Gallery are some of its remarkable sites to visit.</p>
+            <p class="text-justify">Italy loves its hot baths and is home to numerous spas offering mud and water
+                therapies to its travellers. Most well-known are its island baths such as on volcanic Ischia, Tuscan hot
+                springs, mountain baths in the town of Bormio and the thermal park of Lake Garda.</p>
+            <p class="text-justify">Italian cuisine, especially desserts are famous globally; its signature desserts
+                being gelato, cannoli, tiramisu, biscotti spumoni, Neapolitan, Tartufo and zeppole. Italy is also a
+                place for those who love to drive hot wheels. One can hire any super elite car in Italy including
+                Ferrari, Pagani, Alfa Romeo, Maserati after all, the country has a history of starting Formula1.</p>
+            <p class="text-justify">The people of Italy are passionate about their culture and language. Italians love
+                their food, wine, and siesta and believe in living their life to the fullest. Family values are embedded
+                in their daily routine, as home cooked meal during lunch time is valued more than any other appointment
+                at work. Sharing food with family, friends, and neighbors is a tradition which Italians follow
+                staunchly.</p>
+        </div>
+        <div class="col-lg-4 col-md-5 col-sm-10 col-xs-12 mt-4">
+            <div class="card bg-light text-dark">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <h5 class="card-title text-success font-weight-bold">Italy Info</h5>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Currency: </span><span
+                                id="currency"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Population: </span><span
+                                id="population"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Time Zone: </span><span
+                                id="timeZone"></span></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Area: </span><span
+                                id="area"></span> km<sup>2</sup></p>
+                        <p class="card-text"><span class="text-secondary font-weight-bold">Capital: </span><span
+                                id="capital"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Official Language: </span><span
+                                id="language"></span></p>
+                        <p class="card-text"><span
+                                class="text-secondary font-weight-bold">Capital's calling code: </span><span
+                                id="code"></span></p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <hr>
+</div>
+
+<!--Footer-->
+
+<footer class="text-muted">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <p>&copy;COPYRIGHT 2017. ALL RIGHTS RESERVED. WEBSITE POWERED BY TETIANA OSADCHA.</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                <p><a href="#">WRITE US</a></p>
+            </div>
+
+            <!--Share Buttons-->
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+                <ul class="share-buttons">
+                    <li><a href="https://www.facebook.com/sharer/sharer.php?u=&quote=" title="Share on Facebook"
+                           target="_blank"><img alt="Share on Facebook" src="img/Facebook.png" class="img-fluid"/></a>
+                    </li>
+                    <li><a href="https://twitter.com/intent/tweet?source=&text=:%20" target="_blank" title="Tweet"><img
+                            alt="Tweet" src="img/Twitter.png" class="img-fluid"/></a></li>
+                    <li><a href="https://plus.google.com/share?url=" target="_blank" title="Share on Google+"><img
+                            alt="Share on Google+" src="img/Google+.png" class="img-fluid"/></a></li>
+                    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source="
+                           target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="img/LinkedIn.png"
+                                                                          class="img-fluid"/></a></li>
+                    <li><a href="mailto:?subject=&body=:%20" target="_blank" title="Send email"><img alt="Send email"
+                                                                                                     src="img/Email.png"
+                                                                                                     class="img-fluid"/></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
